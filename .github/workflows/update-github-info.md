@@ -6,8 +6,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  copilot-requests: write
   pull-requests: read
-engine: codex
+engine: copilot
 network:
   allowed:
     - github.blog
