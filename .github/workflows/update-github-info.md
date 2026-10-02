@@ -21,7 +21,7 @@ tools:
   github:
     mode: gh-proxy
     toolsets: [repos, pull_requests]
-    allowed-repos: ${{ github.repository }}
+    allowed-repos: current
     min-integrity: approved
 safe-outputs:
   noop:
